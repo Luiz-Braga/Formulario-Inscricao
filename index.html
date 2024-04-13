@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Inscrição</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <main class="flex">
+    <section class="img-mobile">
+      <img src="./imgs/illustration-sign-up-mobile.svg" alt="">
+    </section>
+    <section class="area-text">
+      <h1>Stay Updated!</h1>
+      <p>Join 60,000+ product managers receiving monthly <br>
+        updates on:</p>
+      <ul class="list">
+        <span>
+          <img src="./imgs/icon-list.svg" alt="">
+          <li>Product discovery and building what matters</li>
+        </span>
+        <span>
+          <img src="./imgs/icon-list.svg" alt="">
+          <li>Measuring to ensure updates are a success</li>
+        </span>
+        <span>
+          <img src="./imgs/icon-list.svg" alt="">
+          <li>And much more!</li>
+        </span>
+      </ul>
+      <form autocomplete="off">
+        <div class="label">
+          <label for="email" class="button-email">Email address</label>
+          <label for="email" class="erro">Valid email required</label>
+        </div>
+        <input type="text" class="emailErro" name="email" id="emailInput" placeholder="email@company.com">
+        <button type="submit" class="button-confirmation">Subscribe to monthly newsletter</button>
+      </form>
+
+    </section>
+    <section class="area-img">
+      <img src="./imgs/illustration-sign-up-desktop.svg" alt="">
+    </section>
+
+    <section class="email-container">
+      <div class="email-true">
+        <img src="./imgs/icon-success.svg" alt="">
+        <div class="thanks-text">
+          <span class="thanks">Thanks for <br>
+            subscribing!</span>
+          <span class="text-confirm">
+            A confirmation email has been sent to <br>
+            <span class="email-confirm">ash@lorecompany.com.</span>
+            Please open it and click <br> the button inside to confirm your subscription
+          </span>
+          <button type="submit" class="button-return"> Dismiss message</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>
